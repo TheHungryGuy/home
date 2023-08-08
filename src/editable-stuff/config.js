@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#4158D0, #C850C0, #FF9A00, #FFCC70, #ff7f7f, #C850C0",
   firstName: "Antonio",
   middleName: "",
   lastName: "Arce",
-  message: " Passionate about changing the world with technology. ",
+  message: " Making lives easier through technology. ",
   icons: [
     {
       image: "fa-github",
@@ -54,8 +54,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../../src/assets/img/antonioarce2.png"),
   imageSize: 300,
-  message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+  message: `Hello! My name is Antonio and I enjoy creating solutions using technology. For a few years after high school, I worked at an Amazon Warehouse where I became a manager. While I was there I realized that I really enjoyed problem solving and wanted to make a career switch that involved tackling complex challenges head-on. ${"\n"} Fast Forward a few years and I've had the pleasure of working for Johnson & Johnson. I had a chance to work implementing a knowledge graph for a LLM. \n A recent project that I wanted to create a hassle-free streaming experience and learned how to use Linux and Docker. Eventually, I automated show and movie downloads on a personal NAS, later adding a Discord chatbot for friends to request and enjoy media. \n My path is driven by a commitment to using technology to simplify lives, whether it's unraveling complex systems or enhancing digital experiences. `,
   resume:
     "https://drive.google.com/file/d/1ouWQpaU5ai36-2xfoxM3AYNZS6-yyHN3/view?usp=sharing",
 };
@@ -75,7 +74,7 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: true,
+  show: false,
   heading: "Leadership",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
@@ -129,22 +128,19 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+  email: "antoarce.jr@gmail.com",
 };
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  heading: "Experience",
   data: [
     {
-      role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/dell.png"),
-      date: "June 2018 – Present",
-    },
-    {
-      role: "Front-End Developer",
-      companylogo: require("../assets/img/boeing.png"),
-      date: "May 2017 – May 2018",
+      role: "Software Engineer Intern", // Here Add Company Name
+      companylogo: require("../assets/img/johnson-and-johnson.png"),
+      date: "June 2023 – August 2023",
+      message:
+        "Johnson & Johnson & Johnson & Johnson & Johnson & Johnson & Johnson & Johnson & Johnson & Johnson & J",
     },
   ],
 };

@@ -50,7 +50,26 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center">{message}</p>
+          <p className="lead text-body ">
+            Hello! My name is Antonio and I enjoy creating solutions using
+            technology. For a few years after high school, I worked at an Amazon
+            Warehouse where I became a manager. While I was there I realized
+            that I really enjoyed problem solving and wanted to make a career
+            switch that involved tackling complex challenges head-on. <br></br>
+            <br></br>
+            Fast Forward a few years and I've had the pleasure of working for
+            Johnson & Johnson. I had a chance to work implementing a knowledge
+            graph for a Large Language Model. <br></br>
+            <br></br>A recent project that I worked on was hassle-free personal
+            streaming experience and I learned how to use Linux and Docker.
+            Eventually, I automated show and movie downloads on a personal NAS,
+            later adding a Discord chatbot for friends to request and enjoy
+            media. <br></br>
+            <br></br>
+            My path is driven by a commitment to using technology to simplify
+            lives, whether it's unraveling complex systems or enhancing digital
+            experiences.
+          </p>
           {resume && (
             <p className="lead text-center">
               <a
